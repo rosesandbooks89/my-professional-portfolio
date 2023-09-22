@@ -1,223 +1,223 @@
 header {
-    background-color: #f8f9fa; 
-    border-bottom: 1px solid #e5e5e5; 
-  }
-  
-  .picture {
-    width: 120px;  
-    height: 120px;
-    object-fit: cover;  
-    border: 3px solid #007bff;  
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);  
-  }
-  
-  .greeting {
-    font-size: 1.5rem; 
-    color: #333;  
-  }
-  
-  .my-name {
-    color: #007bff; 
-    font-weight: bold; 
-    font-family: 'cursive';  
-  }
-  
-  /* Navigation styling */
-  
+  background-color: #f8f9fa; 
+  border-bottom: 1px solid #e5e5e5; 
+}
+
+.picture {
+  width: 120px;  
+  height: 120px;
+  object-fit: cover;  
+  border: 3px solid #007bff;  
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);  
+}
+
+.greeting {
+  font-size: 1.5rem; 
+  color: #333;  
+}
+
+.my-name {
+  color: #007bff; 
+  font-weight: bold; 
+  font-family: 'cursive';  
+}
+
+/* Navigation styling */
+
+.navbar {
+  padding: 0.5rem 1rem;  
+}
+
+.navbar-nav {
+  text-align: center;  
+}
+
+.nav-item {
+  margin: 0 0.5rem;  
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.8);  
+  transition: color 0.3s;  
+}
+
+.nav-link:hover, 
+.nav-link.active {
+  color: #ffffff;  
+  text-decoration: none;  
+}
+
+/* Portfolio styling */
+.section_title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section_subtitle {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;  
+  transition: all 0.3s;  
+}
+
+.card-img-top {
+  transition: filter 0.3s; 
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.title-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  background-color: rgba(0, 0, 0, 0); 
+  color: transparent; 
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transition: background-color 0.1s, color 0.1s; 
+}
+
+.project-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.repo-link, .deployed-link {
+  color: inherit; 
+  text-decoration: none;
+  margin: 5px 0;
+  transition: color 0.3s;
+}
+
+/* Hover Effects */
+.card:hover .title-overlay {
+  background-color: rgba(0, 0, 0, 0.5);  
+  color: #ffffff; 
+}
+
+.card:hover .card-img-top {
+  filter: blur(10px);
+  transition: filter 0.3s;  
+}
+
+.repo-link:hover, .deployed-link:hover {
+  color: #007bff;
+}
+
+/* contact form styling */
+
+#contact-me {
+  background-color: #343a40; 
+  padding: 50px 0;
+}
+
+#contact-me h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+#contact-me form {
+  max-width: 500px; 
+  margin: 0 auto;   
+}
+
+#contact-me .form-control {
+  background-color: rgba(255, 255, 255, 0.1);  
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+#contact-me .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5);  
+}
+
+#contact-me .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+#contact-me .text-danger {
+  font-size: 0.875rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#contact-me .btn-primary {
+  background-color: #28a745;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+#contact-me .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Adjustments for medium to large devices */
+@media (min-width: 768px) {
   .navbar {
-    padding: 0.5rem 1rem;  
+      padding: 1rem 2rem;
   }
-  
-  .navbar-nav {
-    text-align: center;  
-  }
-  
-  .nav-item {
-    margin: 0 0.5rem;  
-  }
-  
-  .nav-link {
-    color: rgba(255, 255, 255, 0.8);  
-    transition: color 0.3s;  
-  }
-  
-  .nav-link:hover, 
-  .nav-link.active {
-    color: #ffffff;  
-    text-decoration: none;  
-  }
-  
-  /* Portfolio styling */
-  .section_title {
-    text-align: center;
-    margin-bottom: 4rem;
-  }
-  
-  .section_subtitle {
-    text-align: center;
-    margin-bottom: 5rem;
-  }
-  
-  .card {
-    position: relative;
-    overflow: hidden;  
-    transition: all 0.3s;  
-  }
-  
-  .card-img-top {
-    transition: filter 0.3s; 
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-  }
-  
-  .title-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; 
-    background-color: rgba(0, 0, 0, 0); 
-    color: transparent; 
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    transition: background-color 0.1s, color 0.1s; 
-  }
-  
-  .project-title {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .repo-link, .deployed-link {
-    color: inherit; 
-    text-decoration: none;
-    margin: 5px 0;
-    transition: color 0.3s;
-  }
-  
-  /* Hover Effects */
-  .card:hover .title-overlay {
-    background-color: rgba(0, 0, 0, 0.5);  
-    color: #ffffff; 
-  }
-  
-  .card:hover .card-img-top {
-    filter: blur(10px);
-    transition: filter 0.3s;  
-  }
-  
-  .repo-link:hover, .deployed-link:hover {
-    color: #007bff;
-  }
-  
-  /* contact form styling */
-  
-  #contact-me {
-    background-color: #343a40; 
-    padding: 50px 0;
-  }
-  
-  #contact-me h3 {
-    font-size: 2rem;
-    margin-bottom: 30px;
-    font-weight: 500;
-  }
-  
+}
+
+@media (max-width: 575.98px) {
   #contact-me form {
-    max-width: 500px; 
-    margin: 0 auto;   
+      padding: 0 15px; 
+  }
+}
+
+@media (max-width: 375px) {
+  .picture {
+      width: 120px;
+      height: 160px;
+  }
+
+  .greeting {
+      font-size: 20px;
+      margin-top: 15px;
+  }
+
+  .about-me h2 {
+      font-size: 24px;
   }
   
-  #contact-me .form-control {
-    background-color: rgba(255, 255, 255, 0.1);  
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    color: #ffffff;
-    border-radius: 5px;
-    padding: 10px 15px;
+  .about-me p {
+      font-size: 16px;
   }
-  
-  #contact-me .form-control::placeholder {
-    color: rgba(255, 255, 255, 0.5);  
+
+  #contact-me form {
+      width: 95%;
   }
-  
-  #contact-me .form-control:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+
+  .card {
+      margin-bottom: 20px;
   }
-  
-  #contact-me .text-danger {
-    font-size: 0.875rem;
-    margin-top: -10px;
-    margin-bottom: 10px;
-    display: block;
+}
+/* For devices with smaller screen sizes */
+@media (max-width: 768px) {
+  .greeting {
+      font-size: 1.2rem;
   }
-  
-  #contact-me .btn-primary {
-    background-color: #28a745;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
+
+  .picture {
+      width: 100px;
+      height: 100px;
   }
-  
-  #contact-me .btn-primary:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Adjustments for medium to large devices */
-  @media (min-width: 768px) {
-    .navbar {
-        padding: 1rem 2rem;
-    }
-  }
-  
-  @media (max-width: 575.98px) {
-    #contact-me form {
-        padding: 0 15px; 
-    }
-  }
-  
-  @media (max-width: 375px) {
-    .picture {
-        width: 120px;
-        height: 160px;
-    }
-  
-    .greeting {
-        font-size: 20px;
-        margin-top: 15px;
-    }
-  
-    .about-me h2 {
-        font-size: 24px;
-    }
-    
-    .about-me p {
-        font-size: 16px;
-    }
-  
-    #contact-me form {
-        width: 95%;
-    }
-  
-    .card {
-        margin-bottom: 20px;
-    }
-  }
-  /* For devices with smaller screen sizes */
-  @media (max-width: 768px) {
-    .greeting {
-        font-size: 1.2rem;
-    }
-  
-    .picture {
-        width: 100px;
-        height: 100px;
-    }
-  }
+}
