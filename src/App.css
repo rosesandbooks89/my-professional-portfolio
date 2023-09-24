@@ -1,5 +1,5 @@
 header {
-  background-color: #f8f9fa; 
+  /* background-color: #0ceb17;;  */
   border-bottom: 1px solid #e5e5e5; 
 }
 
@@ -13,7 +13,7 @@ header {
 
 .greeting {
   font-size: 1.5rem; 
-  color: #333;  
+  color: #f813f0;  
 }
 
 .my-name {
