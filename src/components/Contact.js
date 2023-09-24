@@ -17,6 +17,7 @@ function Contact() {
             <div className="mb-3">
                 <input type="text" className="form-control" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} required />
             </div>
+            {name && !validateName(name) && <p className="text-danger">Hey! I need your name please!</p>}
             <div className="mb-3">
                 <input type="email" className="form-control" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
             </div>
