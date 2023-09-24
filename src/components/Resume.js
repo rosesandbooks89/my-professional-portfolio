@@ -2,7 +2,7 @@ import React from "react";
 import 'font-awesome/css/font-awesome.min.css';
 
 //download resume
-// import resume from "../../assets/resume.pdf";
+import resume from "../../assets/resume.pdf";
 
 function Resume() {
     const skills = [
