@@ -1,8 +1,6 @@
 import React from "react";
 import 'font-awesome/css/font-awesome.min.css';
 
-// //download resume
-// import resume from "../../assets/resume.pdf";
 
 function Resume() {
     const skills = [
@@ -21,7 +19,7 @@ function Resume() {
         <section id="resume" className="container my-5">
             <h3 className="text-center mb-4">Resume</h3>
             <div className="d-flex justify-content-center mb-4">
-                <a href="path_to_resume.pdf" className="btn btn-primary" download>Download My Resume</a>
+                <a href="/../assets/resume.pdf" className="btn btn-primary" download>Download My Resume</a>
             </div>
             <h4 className="mb-3 text-center">Full Stack Skills:</h4>
             <ul className="list-group list-group-horizontal-md d-flex justify-content-center flex-wrap">
