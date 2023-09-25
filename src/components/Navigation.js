@@ -12,6 +12,7 @@ function Navigation({setCurrentPage, currentPage}) {
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
+                            
                             <a className={`nav-link ${currentPage === "AboutMe" && "active"}`} aria-current="page" href="#about-me" onClick={() => setCurrentPage("AboutMe")}>About Me</a>
                         </li>
                         <li className="nav-item">

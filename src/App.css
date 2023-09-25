@@ -41,9 +41,12 @@ header {
   transition: color 0.3s;  
 }
 
-.nav-link:hover, 
+.nav-link:hover {
+  color: #007bff;  
+  text-decoration: none;  
+}
 .nav-link.active {
-  color: #ffffff;  
+  color: #5cd221;  
   text-decoration: none;  
 }
 

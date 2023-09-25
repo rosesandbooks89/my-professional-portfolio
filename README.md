@@ -8,7 +8,7 @@
 ## Table of Contents
 * [User Story](#user-story)
 * [Acceptance Criteria](#acceptance-criteria)
-* [Installation](#installation)
+* [Technologies Used](#technologies-used)
 * [Usage](#usage)
 * [License](#license)
 * [Struggles and Sources](#struggles-and-sources)
@@ -50,11 +50,14 @@ SO THAT I can assess whether they're a good candidate for an open position
 * WHEN I am presented with the Resume section
 * THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 * WHEN I view the footer
-* THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+* THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)  
 ```
 
-## Installation
-To install this project, clone the repository and run `npm install` to install all dependencies.
+## Technologies Used
+- **React:** This website is built using React, a popular JavaScript library for building user interfaces.
+- **HTML/CSS:** For structuring the content and styling the website.
+- **JavaScript:** Used for interactivity and handling dynamic content.
+
 
 
 

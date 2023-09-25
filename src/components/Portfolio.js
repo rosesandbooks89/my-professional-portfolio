@@ -20,14 +20,14 @@ function Portfolio() {
         },
         {
             name: "My Weather App",
-            description: "Project 3 description",
+            description: "An application that allows the user to search for a city and get the current weather and 5 day forecast.",
             image: weatherDashboard,
             github: "https://github.com/rosesandbooks89/My-Weather-App",
             deployedUrl: "https://rosesandbooks89.github.io/My-Weather-App/"
         },
         {
             name: "Note Taker",
-            description: "Project 4 description",
+            description: "An application that allows the user to create, edit, and delete notes and save to local storage.",
             image: noteTaker,
             github: "https://github.com/rosesandbooks89/awesome-note-taker",
             deployedUrl: "https://awesome-notetaker-acd455f00464.herokuapp.com/"
@@ -65,10 +65,10 @@ function Portfolio() {
                         <a href={project.repoUrl} target="_blank" rel="noopener noreferrer"></a>
                         <div className="card">
                             <div className="title-overlay">
-                                <div className="project-title">{project.name}</div>
-                                <a href={project.repoUrl} target="_blank" rel="noopener noreferrer" className="repo-link">Click Here to go to Repo</a>
+                                <div className="project-title fs-3 text-decoration-underline">{project.name}</div>
+                                <a href={project.github} target="_blank" rel="noopener noreferrer" className="repo-link">Click Here to go to Repo</a>
                                 <span> | </span>
-                                <a href={project.deployedUrl} target="_blank" rel="noopener noreferrer" className="deployed-link">Click here to deployed project.</a>
+                                <a href={project.deployedUrl} target="_blank" rel="noopener noreferrer" className="deployed-link">Click here for the deployed project.</a>
                                 <span> | </span>
                                 <div className="card-body text-center">{project.description}</div>   
 
