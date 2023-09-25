@@ -17,12 +17,9 @@ function Resume() {
     <section id="resume" className="container my-5">
       <h3 className="text-center mb-4">Resume</h3>
       <div className="d-flex justify-content-center mb-4">
-        <a
-          href="https://drive.google.com/file/d/1UFoN0I_9sIGWZBqdV75Pd-iwc0m2anyC/view?usp=sharing"
-          className="btn btn-primary"
-          download
-        >
-          Download My Resume
+        {/* open a href link in a new page when download button is clicked */}
+        <a href="https://drive.google.com/file/d/1UFoN0I_9sIGWZBqdV75Pd-iwc0m2anyC/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-primary">
+            Download My Resume
         </a>
       </div>
       <h4 className="mb-3 text-center">Full Stack Skills:</h4>
