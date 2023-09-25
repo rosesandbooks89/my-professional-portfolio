@@ -53,15 +53,13 @@ SO THAT I can assess whether they're a good candidate for an open position
 * THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 ```
 
-
-
-
-
 ## Installation
+To install this project, clone the repository and run `npm install` to install all dependencies.
 
 
 
 ## Usage
+To use this project, run `npm start` to start the application.
 
 
 
@@ -69,6 +67,9 @@ SO THAT I can assess whether they're a good candidate for an open position
 This project does not have a license.
 
 ## Struggles and Sources
+-had an issue with deploying to pages
+-needed help with attaching resume so that i could be downloaded. 
+
 
 
 
