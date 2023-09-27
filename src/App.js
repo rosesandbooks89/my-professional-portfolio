@@ -17,8 +17,17 @@ function App() {
     if (currentPage === "AboutMe") return <AboutMe />;
     if (currentPage === "Portfolio") return <Portfolio />;
     if (currentPage === "Contact") return <Contact />;
+    
+    if (currentPage === "Resume")
+
     return <Resume />;
   };
+
+//  function refreshPage() {
+//   const refreshPage = () =>
+//   window.location.reload(true);
+//   }
+
 
   return (
     <div className="App">
