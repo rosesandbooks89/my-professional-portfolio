@@ -18,7 +18,7 @@ function Resume() {
       <h3 className="text-center mb-4">Resume</h3>
       <div className="d-flex justify-content-center mb-4">
         {/* open a href link in a new page when download button is clicked */}
-        <a href="https://drive.google.com/file/d/1UFoN0I_9sIGWZBqdV75Pd-iwc0m2anyC/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-primary">
+        <a href="https://drive.google.com/file/d/1toyvvTaNCDQ7gchs5Oq_aUOG4ToTbNSV/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-primary">
             Download My Resume
         </a>
       </div>
